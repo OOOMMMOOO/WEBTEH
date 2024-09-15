@@ -1,0 +1,12 @@
+ul{
+    color: aquamarine;
+    font-size: large;
+    border: 1px;
+}
+
+p{
+    color: rgb(167, 243, 61);
+    font-size: small;
+    border: 10px;
+    border-color: black;  
+}
