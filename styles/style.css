@@ -13,7 +13,7 @@ header{
 }
 
 nav.top-nav{
-    background-color: rgb(61, 160, 226);
+    background-color: rgb(110, 118, 124);
 }
 
 ul{
@@ -54,6 +54,33 @@ section div img{
     object-fit: cover;
 }
 
+.soc-media{
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.names{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.screens{
+    display: grid;
+    grid-template-columns: 50% 50%;   
+}
+.screens-img{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.screens-p{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
 main{
     background-color: aquamarine;
 }
